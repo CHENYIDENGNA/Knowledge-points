@@ -4,4 +4,4 @@ dp(device independent pixels，设备独立像素),在理解dp之前，首先需
 Scale-independent Pixel,与缩放无关的抽象像素，是安卓中用来表示文字大小的单位，以160PPI屏幕为标准，当字体大小为 100%时， 1sp=1px
 
 ##### 3 css中设备中的1px区别
-通常在桌面浏览器中css中的1px与设备的1px是相等，但是在移动设备中却存在差异。随着技术发展，手机分辨率越来越高，一个css像素对应的物理像素就不等于1了，通常安卓设备根据屏幕像素密度可分为ldpi、mdpi、hdpi、xhdpi等不同的等级
+通常在桌面浏览器中css中的1px与设备的1px是相等，但是在移动设备中却存在差异。随着技术发展，手机分辨率越来越高，一个css像素对应的物理像素就不等于1了，通常安卓设备根据屏幕像素密度可分为ldpi、mdpi、hdpi、xhdpi等不同的等级，可以在控制台通过window.devicePixelRatio来获得该比值
